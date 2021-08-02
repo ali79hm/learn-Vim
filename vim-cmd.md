@@ -45,5 +45,6 @@ press ```i``` on keyboard for going to insert mode
 :help <topic-name>
 :helpgrep <phrase> # if, you don’t know the exact name of help topic
 ```
-![vim help picture](picture/vim-help-modes.png "vim help")
+![example of vim help](picture/vim-help-modes.png "example of vim help")
+
  
