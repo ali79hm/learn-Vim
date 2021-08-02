@@ -119,5 +119,5 @@ N                   # go to prevous word in serach
 :%s/<word>/<newWord>/g   #serach and replace all
 :%s/<word>/<newWord>/gc  #serach and replace all with confirm
 ```
-![example of vim search and replace](picture/vim-search&replace.png "example of vim tabs")
+![example of vim search and replace](picture/vim-searchandreplace.png "example of vim tabs")
 
