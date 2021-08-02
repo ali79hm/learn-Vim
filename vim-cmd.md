@@ -8,11 +8,14 @@ author:
 # start with vim
 ## open vim
 we can open vim with one of this commands in console
-```shell 
+```shell
+#in console
 vim               # open vim
 vim <fileName>    # open file with vim
 vim -R <fileName> # open file with vim(read only)
-
+#in vim editor
+:edit <filename>  # edit a file 
+:edit <tab>       # List the files for editing
 ```
 ## exit from vim
 
@@ -28,6 +31,18 @@ vim -R <fileName> # open file with vim(read only)
 ```shell
 :set number   # show line numbers
 ```
+# vim tabs and windows
+## tabs
+```shell
+:tabnew             # Open new tabVim
+:tabnew <filename>  # Open new file in tab
+:tabclose           # Close current tab
+:tabnext            # Move to the next tab
+:tabprevious        # Move to the previous tab
+:tabfirst           # Move to the first tab
+:tablast            # Move to the last tab
+```
+![example of vim tabs](picture/vim-tabs.png "example of vim tabs")
 # vim mods
 ### command mode
 vim opens in command mode By default but if you switched to other modes you can go to command mode by pressing
