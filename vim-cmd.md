@@ -43,6 +43,14 @@ vim -R <fileName> # open file with vim(read only)
 :tablast            # Move to the last tab
 ```
 ![example of vim tabs](picture/vim-tabs.png "example of vim tabs")
+## windows
+```shell
+:new                //Open new window
+:new <filename>         //Open file in new window
+```
+for switch between windows press ```ctrl```+```w``` twice (in command mode!)
+
+![example of vim windows](picture/vim-windows.png "example of vim tabs")
 # vim mods
 ### command mode
 vim opens in command mode By default but if you switched to other modes you can go to command mode by pressing
