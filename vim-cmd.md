@@ -47,4 +47,24 @@ press ```i``` on keyboard for going to insert mode
 ```
 ![example of vim help](picture/vim-help-modes.png "example of vim help")
 
+
+# navigation
+
+## navigate between lines
  
+```shell
+:<n>  # go to nth line (replace n with number)
+:0    # go to start of file
+:$    # go to end of file
+```
+
+## navigate in lines
+
+```shell
+$     # go to end of line
+0     # go to beginning of line
+w     # Move cursor to the beginning of the next word
+e     # Move cursor to the end of the current word
+b     # Move cursor to the end of the current word
+```
+
