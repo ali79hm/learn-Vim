@@ -94,8 +94,8 @@ b     # Move cursor to the end of the current word
 ![example of vim tabs](picture/vim-tabs.png "example of vim tabs")
 ## windows
 ```shell
-:new                //Open new window
-:new <filename>         //Open file in new window
+:new                # Open new window
+:new <filename>     # Open file in new window
 ```
 for switch between windows press ```ctrl```+```w``` twice (in command mode!)
 
@@ -131,3 +131,10 @@ $ vimdiff <filename> <filename> -o  //horizental view
 :vert diffsplit <filename>          //vertical view
 ```
 ![example of vimdiff](picture/vim-diff.png "example of vim diff")
+
+for switch between files press ```ctrl```+```w``` twice (in command mode!)
+
+---
+ - 
+ read more in : https://www.tutorialspoint.com/vim/vim_tutorial.pdf
+---
