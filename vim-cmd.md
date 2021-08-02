@@ -28,3 +28,13 @@ vim -R <fileName> # open file with vim(read only)
 ```shell
 :set number   # show line numbers
 ```
+# vim mods
+### command mode
+vim opens in command mode By default but if you switched to other modes you can go to command mode by pressing
+```ecs```
+on keyboard 
+
+### insert mode
+for editing text you should go to insert mode 
+
+press ```i``` on keyboard for going to insert mode
