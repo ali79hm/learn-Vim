@@ -52,27 +52,6 @@ for editing text you should go to insert mode
 
 press ```i``` on keyboard for going to insert mode
 
-# vim tabs and windows
-## tabs
-```shell
-:tabnew             # Open new tabVim
-:tabnew <filename>  # Open new file in tab
-:tabclose           # Close current tab
-:tabnext            # Move to the next tab
-:tabprevious        # Move to the previous tab
-:tabfirst           # Move to the first tab
-:tablast            # Move to the last tab
-```
-![example of vim tabs](picture/vim-tabs.png "example of vim tabs")
-## windows
-```shell
-:new                //Open new window
-:new <filename>         //Open file in new window
-```
-for switch between windows press ```ctrl```+```w``` twice (in command mode!)
-
-![example of vim windows](picture/vim-windows.png "example of vim tabs")
-
 # vim help
 ```shell
 :help
@@ -101,3 +80,23 @@ e     # Move cursor to the end of the current word
 b     # Move cursor to the end of the current word
 ```
 
+# vim tabs and windows
+## tabs
+```shell
+:tabnew             # Open new tabVim
+:tabnew <filename>  # Open new file in tab
+:tabclose           # Close current tab
+:tabnext            # Move to the next tab
+:tabprevious        # Move to the previous tab
+:tabfirst           # Move to the first tab
+:tablast            # Move to the last tab
+```
+![example of vim tabs](picture/vim-tabs.png "example of vim tabs")
+## windows
+```shell
+:new                //Open new window
+:new <filename>         //Open file in new window
+```
+for switch between windows press ```ctrl```+```w``` twice (in command mode!)
+
+![example of vim windows](picture/vim-windows.png "example of vim tabs")
