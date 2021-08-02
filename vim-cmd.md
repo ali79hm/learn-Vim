@@ -100,3 +100,24 @@ b     # Move cursor to the end of the current word
 for switch between windows press ```ctrl```+```w``` twice (in command mode!)
 
 ![example of vim windows](picture/vim-windows.png "example of vim tabs")
+
+# search
+```shell
+/<word>             # search for a word 
+n                   # go to next word in serach
+shift + n           # go to prevous word in serach
+N                   # go to prevous word in serach
+//                  # repeat previous word search
+
+*                   # Search next occurrence of current word
+#                   # Search previous occurrence of current word
+```
+![example of vim search](picture/vim-search.png "example of vim tabs")
+# search and replace
+```shell
+:%s/<word>/<newWord>     #serach and replace
+:%s/<word>/<newWord>/g   #serach and replace all
+:%s/<word>/<newWord>/gc  #serach and replace all with confirm
+```
+![example of vim search and replace](picture/vim-search&replace.png "example of vim tabs")
+
