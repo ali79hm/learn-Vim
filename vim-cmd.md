@@ -121,3 +121,13 @@ N                   # go to prevous word in serach
 ```
 ![example of vim search and replace](picture/vim-searchandreplace.png "example of vim tabs")
 
+# files diffrent
+```shell
+#in console
+$ vimdiff <filename> <filename>     //vertical view
+$ vimdiff <filename> <filename> -o  //horizental view
+#in vim editor
+:diffsplit filename                 //horizental view
+:vert diffsplit <filename>          //vertical view
+```
+![example of vimdiff](picture/vim-diff.png "example of vim diff")
