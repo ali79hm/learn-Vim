@@ -41,6 +41,17 @@ ctr + r        # redo
 {number}dd    # in cmd mode removes lines that pointer is in for {number} times
               # you can use just dd for removing one line
 ```
+# vim mods
+## command mode
+vim opens in command mode By default but if you switched to other modes 
+
+you can go to command mode by pressing```ecs```on keyboard 
+
+## insert mode
+for editing text you should go to insert mode 
+
+press ```i``` on keyboard for going to insert mode
+
 # vim tabs and windows
 ## tabs
 ```shell
@@ -61,16 +72,6 @@ ctr + r        # redo
 for switch between windows press ```ctrl```+```w``` twice (in command mode!)
 
 ![example of vim windows](picture/vim-windows.png "example of vim tabs")
-# vim mods
-## command mode
-vim opens in command mode By default but if you switched to other modes 
-
-you can go to command mode by pressing```ecs```on keyboard 
-
-## insert mode
-for editing text you should go to insert mode 
-
-press ```i``` on keyboard for going to insert mode
 
 # vim help
 ```shell
