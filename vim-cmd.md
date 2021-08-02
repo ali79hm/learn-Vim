@@ -38,3 +38,12 @@ on keyboard
 for editing text you should go to insert mode 
 
 press ```i``` on keyboard for going to insert mode
+
+# vim help
+```shell
+:help
+:help <topic-name>
+:helpgrep <phrase> # if, you don’t know the exact name of help topic
+```
+![vim help picture](E:\work\vim-commmands\vim-help-modes.png "vim help")
+ 
