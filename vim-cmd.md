@@ -1,9 +1,9 @@
 vim commands
 ---
 by seyed ali hosseini
-author:
+
   - 
-    url: https://github.com/ali79hm
+    github: https://github.com/ali79hm
 ---
 # start with vim
 ## open vim
