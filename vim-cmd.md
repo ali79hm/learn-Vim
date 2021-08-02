@@ -17,7 +17,7 @@ vim -R <fileName> # open file with vim(read only)
 :edit <filename>  # edit a file 
 :edit <tab>       # List the files for editing
 ```
-## exit from vim
+## save & exit from vim
 
 ```shell 
 :q <enter>    # exit the vim 
@@ -30,6 +30,16 @@ vim -R <fileName> # open file with vim(read only)
 
 ```shell
 :set number   # show line numbers
+```
+## undo & redo
+```shell
+u              # undo 
+ctr + r        # redo
+```
+## remove lines
+```shell
+{number}dd    # in cmd mode removes lines that pointer is in for {number} times
+              # you can use just dd for removing one line
 ```
 # vim tabs and windows
 ## tabs
@@ -52,12 +62,12 @@ for switch between windows press ```ctrl```+```w``` twice (in command mode!)
 
 ![example of vim windows](picture/vim-windows.png "example of vim tabs")
 # vim mods
-### command mode
-vim opens in command mode By default but if you switched to other modes you can go to command mode by pressing
-```ecs```
-on keyboard 
+## command mode
+vim opens in command mode By default but if you switched to other modes 
 
-### insert mode
+you can go to command mode by pressing```ecs```on keyboard 
+
+## insert mode
 for editing text you should go to insert mode 
 
 press ```i``` on keyboard for going to insert mode
@@ -69,7 +79,6 @@ press ```i``` on keyboard for going to insert mode
 :helpgrep <phrase> # if, you don’t know the exact name of help topic
 ```
 ![example of vim help](picture/vim-help-modes.png "example of vim help")
-
 
 # navigation
 
