@@ -10,3 +10,5 @@ in this manual i show you basic commands of vim
 hope you enjoy that!
 
 ![vim image](picture/vim.png "vim")
+
+[start now →](vim-cmd.md)
